@@ -33,7 +33,7 @@ gulp.task('styles', 'Compile Sass to CSS', function () {
 });
 
 <% } else if (includeLibSass) { %>
-// Complie scss using libsass
+// Compile scss using libsass
 
 gulp.task('styles', 'Compile Sass to CSS', function () {
   return gulp.src(config.styles.src)
